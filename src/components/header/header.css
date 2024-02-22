@@ -1,0 +1,32 @@
+.header {
+  position: sticky;
+  overflow: hidden;
+  padding: 5px 0;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  z-index: 2000;
+  border-bottom: 2px solid #edeeef;
+}
+.headerRight {
+  color: white;
+}
+a {
+  color: black;
+}
+a.active {
+  color: #bc12a2;
+}
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 30vw;
+}
+
+a :hover {
+  cursor: pointer;
+}
